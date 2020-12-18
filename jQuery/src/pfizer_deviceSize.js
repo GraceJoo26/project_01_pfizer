@@ -2,7 +2,7 @@ var deviceSize=function(){
     var  resultDevice;
     (function($){
         var deviceType=[
-            {type:'mobile',size:480},
+            {type:'mobile',size:1054},
             {type:'pc',size:1440},
             {type:'pcfull'}
         ];

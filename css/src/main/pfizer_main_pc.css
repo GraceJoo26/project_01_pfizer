@@ -1,0 +1,169 @@
+
+.pc_h1{
+    float:left;
+    width:163px; height: 102px;
+    background-image: url(../../../img/pfizer_logo.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+}
+
+.pc_gnb{
+    float:right;
+    margin-right:12.5vw;
+    margin-top:45px;
+    width:572px;
+}
+
+.pc_gnb dl{   
+    float:left;
+    width:92px; height:27px;
+    margin-left:58px;
+    font-size: 1.25rem;
+}
+.pc_gnb .pc_intro{margin-left:0;}
+/*-------------------headBox------------------*/
+
+.pc_view{
+    width:100%; height:69.444444444vw;
+    background-image: url(../../../img/2020515_front_img_0.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+/*------------------newsBox-----------------*/
+.pc_newsWrap{
+    width: 100%;height: 55.694444vw;
+    background-color: #fff;
+}
+.pc_newsTheme{
+    margin:auto;
+    width:404px; height:5.55555556vw;
+    padding-top:5.5555556vw;
+}
+.pc_newsTheme dt{
+    margin:auto;
+    width:230px;
+    font-size: 1.875rem;
+    color:var(--color-black);
+}
+.pc_newsTheme dd{
+    margin:auto;
+    width:406px;
+    font-size: 1rem;
+    color:var(--color-deepgray);
+    padding-top:2.08333333vw;
+}
+.pc_news{
+    width:77.8vw; height:28.819444vw;
+    margin:auto;
+    margin-top:7.291667vw;
+}
+.pc_news dt{
+    width:100%;height:13.0555556vw;
+    margin-top:1.0416667vw;
+    background-color: #cdc;
+    box-sizing: border-box;
+}
+.first_newsBox{
+    float:left;
+    width: 24.16667vw; height: 20.486111vw;
+    border: 1px solid var(--color-black); 
+    box-sizing: border-box;
+}
+.pc_theme{margin-top:10px;margin-left:5px; font-size:0.875rem; color:var(--color-black);}
+.pc_date{margin-top:10px; margin-left:5px;font-size: 0.75rem; color:var(--color-deepgray);}
+
+.second_newsBox{
+    float:left;
+    width: 24.16667vw; height: 20.486111vw;
+    border: 1px solid var(--color-black); 
+    box-sizing: border-box;
+    margin-left:2.6388889vw ;
+}
+.third_newsBox{
+    float:left;
+    width: 24.16667vw; height: 20.486111vw;
+    border: 1px solid var(--color-black); 
+    box-sizing: border-box;
+    margin-left:2.6388889vw ;
+}
+
+.pc_button{
+    width:80px;height:20px;
+    margin:auto; top:6.9444444vw;
+    
+}
+.pc_prev{
+    float:left;
+    font-size: 1.6rem;
+}
+.pc_next{
+    float:right;
+    font-size: 1.6rem;
+}
+/*---------------------------youtubeBox-----------*/
+.pc_youtubeBox{
+    width:100%; height:55.5555556vw;
+    background-color: var(--color-white);
+}
+.pc_youtubeBox_theme{
+    margin:auto;
+    width:374px; height:6.11111111vw;
+    padding-top:5.5555556vw;
+}
+.pc_youtubeBox_theme dt{
+    margin:auto;
+    width:260px;
+    font-size: 1.875rem;
+    color:var(--color-black);
+}
+.pc_youtubeBox_theme dd{
+    margin:auto;
+    width:374px;
+    font-size: 1rem;
+    color:var(--color-deepgray);
+    padding-top:2.08333333vw;
+}
+
+
+
+.pc_youtubeBox_01{
+    width:77.8vw; height:28.819444vw;
+    margin:auto;
+    margin-top:7.291667vw;
+}
+.pc_youtubeBox_01 dt{
+    width:100%;height:13.0555556vw;
+    margin-top:1.0416667vw;
+    background-color: #cdc;
+    box-sizing: border-box;
+}
+.first_youtubeBox{
+    float:left;
+    width: 24.16667vw; height: 20.486111vw;
+    border: 1px solid var(--color-black); 
+    box-sizing: border-box;
+}
+.pc_theme{margin-top:10px;margin-left:5px; font-size:0.875rem; color:var(--color-black);}
+.pc_date{margin-top:10px; margin-left:5px;font-size: 0.75rem; color:var(--color-deepgray);}
+
+.second_youtubeBox{
+    float:left;
+    width: 24.16667vw; height: 20.486111vw;
+    border: 1px solid var(--color-black); 
+    box-sizing: border-box;
+    margin-left:2.6388889vw ;
+}
+.third_youtubeBox{
+    float:left;
+    width: 24.16667vw; height: 20.486111vw;
+    border: 1px solid var(--color-black); 
+    box-sizing: border-box;
+    margin-left:2.6388889vw ;
+}
+.pc_broadcast{margin-left:0.8333vw; margin-top:1.1111vw; font-size: 0.625rem; color:red;}
+.pc_theme{margin-left:0.8333vw; margin-top:1.1111vw; font-size: 0.875rem; color:var(--color-black);}
+
+/*-------------------drugInfoBox------------------*/

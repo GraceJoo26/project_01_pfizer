@@ -1,7 +1,7 @@
 
     #wrap{
-        width:100%; height:auto;
-        background-color:var(--color-white);
+        width:100%; height:auto; 
+        background-color:#0af;
     }
     /*-----------------------------headBox----------*/
     #headBox{
@@ -29,21 +29,21 @@
         position:relative;
         top:0;
         z-index: 500;
-        width:16vw; height:20vw;background-color: var(--color-white);
+        width:77px; height:96px;background-color: var(--color-white);
     }
     .menu_btn i{
         position:absolute;
         z-index:600 ;
         top:0; bottom:0; left:0; right:0;
         margin:auto;
-        border-radius: 1.041667vw ; display:block; width: 100%;height: 0.83333vw;
+        border-radius: 5px ; display:block; width: 100%;height: 0.83333vw;
         background-color: var(--color-black);opacity:1; transition:all 300ms ease;
     }
     .line_02{
-        transform:translateY(-5.2vw);
+        transform:translateY(-30px);
     }
     .line_03{
-        transform:translateY(5.2vw);
+        transform:translateY(30px);
     }
     .menu_btn.on .line_01{opacity:0;}
     .menu_btn.on .line_02{transform:translate3d(10 10 10)}
@@ -129,6 +129,7 @@
     .m_news dl{
         width:100%; height:50.8333333vw;
         border:1px solid var(--color-black);
+        box-sizing: border-box;
     }
     .m_news dt{
         width:100%; height:38.541667vw;
@@ -188,6 +189,7 @@
         width:82.5vw; height:29.5833333333vw;
         margin-top:9.7916666667vw;
         border:1px solid var(--color-black);
+        box-sizing: border-box;
     }
     .m_movie_01{
         float:left;
