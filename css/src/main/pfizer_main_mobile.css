@@ -150,6 +150,7 @@
         width:10.416667vw; height:3.75vw;
         margin: auto;
         margin-top: 2.9166667vw;
+        font-size: 1rem;
     }
     .m_prev{
         float:left;
@@ -169,13 +170,13 @@
         margin:auto;padding-top: 7.291666666666666667vw;
     }
     .m_youtubeBox_theme dt{
-        width:36.875vw; height:4.1666666666667vw;
+        width:177px; 
         margin:auto;
         font-size: 1.25rem;color:var(--color-black);
     }
     .m_youtubeBox_theme dd{
-        width:64.583333333333vw; height:3.125vw;
-        margin:auto; margin-top:1.875vw;
+        width:300px; height:15px;
+        margin:auto;  margin-top: 1.875vw;
         font-size: 0.8125rem;color:var(--color-deepgray);
     }
 
@@ -236,12 +237,12 @@
     margin:auto;padding-top: 7.291666666666666667vw;
 }
 .m_drugInfo_theme dt{
-    width:23.333333333333vw; height:4.1666666666667vw;
+    width:112px;
     margin:auto;
     font-size: 1.25rem;color:var(--color-black);
 }
 .m_drugInfo_theme dd{
-    width:56.25vw; height:3.125vw;
+    width:270px;
     margin:auto; margin-top:1.875vw;
     font-size: 0.8125rem;color:var(--color-deepgray);
 }
