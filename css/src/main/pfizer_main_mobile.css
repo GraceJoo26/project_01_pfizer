@@ -1,7 +1,7 @@
 
     #wrap{
-        width:100%; height:3600px;
-        background-color: #07a;
+        width:100%; height:auto;
+        background-color:var(--color-white);
     }
     /*-----------------------------headBox----------*/
     #headBox{
@@ -157,3 +157,111 @@
     .m_next{
         float:right;
     }
+    /*----------------------------youtubeBox--------------------*/
+
+    .m_youtubeBox{
+        width:100%; height: 104.58333333333vw;
+        background-color: var(--color-white);
+    }
+
+    .m_youtubeBox_theme{
+        width:64.5833333333vw; height:8.33333333vw;
+        margin:auto;padding-top: 7.291666666666666667vw;
+    }
+    .m_youtubeBox_theme dt{
+        width:36.875vw; height:4.1666666666667vw;
+        margin:auto;
+        font-size: 1.25rem;color:var(--color-black);
+    }
+    .m_youtubeBox_theme dd{
+        width:64.583333333333vw; height:3.125vw;
+        margin:auto; margin-top:1.875vw;
+        font-size: 0.8125rem;color:var(--color-deepgray);
+    }
+
+    .m_youtube_01{
+        margin:auto;
+        width:82.5vw; height:71.875vw;
+    }
+    .m_youtubeBox_01{
+        width:82.5vw; height:29.5833333333vw;
+        margin-top:9.7916666667vw;
+        border:1px solid var(--color-black);
+    }
+    .m_movie_01{
+        float:left;
+        width:48.3333333333vw; height:26.6666666666666667vw;
+    }
+    .m_movie_theme_01{margin-left:3.5416666667vw;}
+    .m_movie_theme_01 dt{
+        margin-top:1.458333333vw;
+        font-size: 0.614375rem ;
+        color:red;
+    }
+    .m_movie_theme_01 dd{
+        margin-top:3.125vw;
+        font-size: 0.75rem;
+        color: var(--color-black);
+    }
+   
+    .m_youtubeBox_02{
+        width:82.5vw; height:29.5833333333vw;
+        margin-top:9.7916666667vw;
+        border:1px solid var(--color-black);
+    }
+    .m_movie_02{
+        float:left;
+        width:48.3333333333vw; height:26.6666666666666667vw;
+    }
+    .m_movie_theme_02{margin-left:3.5416666667vw;}
+    .m_movie_theme_02 dt{
+        margin-top:1.458333333vw;
+        font-size: 0.614375rem ;
+        color:red;
+    }
+    .m_movie_theme_02 dd{
+        margin-top:3.125vw;
+        font-size: 0.75rem;
+        color: var(--color-black);
+    }
+
+/*-------------------------------------------drugInfoBox---------*/
+.m_drugInfoBox{
+    width:100%; height: 104.58333333333vw;
+    background-color: var(--color-white);
+}
+
+.m_drugInfo_theme{
+    width:56.25vw; height:8.33333333vw;
+    margin:auto;padding-top: 7.291666666666666667vw;
+}
+.m_drugInfo_theme dt{
+    width:23.333333333333vw; height:4.1666666666667vw;
+    margin:auto;
+    font-size: 1.25rem;color:var(--color-black);
+}
+.m_drugInfo_theme dd{
+    width:56.25vw; height:3.125vw;
+    margin:auto; margin-top:1.875vw;
+    font-size: 0.8125rem;color:var(--color-deepgray);
+}
+.m_drug_pic{
+    margin-top: 14.5833333333333vw;
+    margin-left:8.95833333333333vw;
+    width:82.70833333333vw; height:43.95833333333333vw;
+    background-image: url(../../../img/drugcollection.png);
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+/*-----------------------footBox------------------------------------*/
+#footBox{
+    background-color: var(--color-deepgray);
+}
+.m_footBox{
+    padding-top:8.3333333333333vw;
+    margin-left:12.5vw;
+    width:58.3333333333vw; height:25.625vw;
+    font-size: 0.025rem;
+    line-height:2rem;
+}
