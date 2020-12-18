@@ -167,3 +167,73 @@
 .pc_theme{margin-left:0.8333vw; margin-top:1.1111vw; font-size: 0.875rem; color:var(--color-black);}
 
 /*-------------------drugInfoBox------------------*/
+
+.pc_drugInfoWrap{
+    width:100%; height:55.555555556vw;
+    background-color: var(--color-white);
+}
+
+.pc_drugInfoTheme{
+    margin:auto;
+    width:366px; height:5.55555556vw;
+    padding-top:5.5555556vw;
+}
+.pc_drugInfoTheme dt{
+    margin:auto;
+    width:164px;
+    font-size: 1.875rem;
+    color:var(--color-black);
+}
+.pc_drugInfoTheme dd{
+    font-size: 1rem;
+    color:var(--color-deepgray);
+    padding-top:2.08333333vw;
+}
+
+.pc_drugPic{
+    width:77.638889vw; height:22.36111vw;
+    margin:auto; margin-top:3.3333333vw;
+}
+.pc_drugPic li{
+    float:left;
+    width:14.166667vw; height:10.833333vw;
+    margin-left:1.597222vw;
+    margin-top:1.597222vw;
+    background-color: var(--color-white);
+}
+.pc_drugPic li:first-child{
+    margin-left: 0;
+}
+.pc_drugPic li:nth-child(6){
+    margin-left: 0;
+}
+
+/*------------------footer---------*/
+
+.pc_footer{
+    width:100%; height:20.833333vw;
+}
+.pc_address{
+    margin-left:11.319444vw; padding-top: 6.597222vw;
+    width:77.5vw; height:7.6388889vw;
+}
+.pc_address li{
+    font-size: 1rem;
+    float:left;
+}
+.pc_address li:nth-child(2){
+    float:left;
+    margin-left: 6.944444vw;
+}
+.pc_address li:nth-child(3){
+    float:right;
+    margin-left:1.458333vw;
+}
+#family_site{
+    width:11.36111vw; height:3.125vw; 
+    color:var(--color-black);
+    text-align:center;
+}
+#site_map{
+    width:11.36111vw; height:3.125vw; color:var(--color-black);
+}
