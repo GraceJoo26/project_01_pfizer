@@ -1,95 +1,10 @@
 
     #wrap{
         width:100%; height:auto; 
-        background-color:#0af;
+        background-color:var(--color-white);
     }
     /*-----------------------------headBox----------*/
-    #headBox{
-        margin:auto;
-        width:82.5vw; height:100px;
-        background-color: var(--color-white); 
-    }
-    .m_h1{
-        float:left;
-        width:108px; height:60px;
-        margin-top: 20px;
-        background-image: url(../../../img/pfizer_logo.png);
-        background-position: 50% 50%;
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
-    #navBox{
-        float:right;
-    }
-
-    .menu_btn{
-        position:relative;z-index:500;
-    }
-    .menu_btn,.menu_btn > button{
-        position:relative;
-        top:0;
-        z-index: 500;
-        width:77px; height:96px;background-color: var(--color-white);
-    }
-    .menu_btn i{
-        position:absolute;
-        z-index:600 ;
-        top:0; bottom:0; left:0; right:0;
-        margin:auto;
-        border-radius: 5px ; display:block; width: 100%;height: 0.83333vw;
-        background-color: var(--color-black);opacity:1; transition:all 300ms ease;
-    }
-    .line_02{
-        transform:translateY(-30px);
-    }
-    .line_03{
-        transform:translateY(30px);
-    }
-    .menu_btn.on .line_01{opacity:0;}
-    .menu_btn.on .line_02{transform:translate3d(10 10 10)}
-    .menu_btn.on .line_03{transform:translate3d(-10 -10 -10)}
-
-    .gnb{
-        display:none;
-        position:fixed;
-        top:0; right:0; left:0; bottom:0; 
-        margin:auto;
-        z-index:100; 
-        width: 100%; height:100%;
-        background-color: rgba(255,255,255,0.7);}
-  
-
-    .gnb_01 dt{
-        width:100px; height: 30px;
-        margin:auto;
-        margin-top: 30vw;
-        font-size: 1.2rem;
-        color: var(--color-black);
-    }
-    .gnb_01 dd{
-        margin:auto;
-        width:100px;height:20px;
-        margin-top:10px;
-        font-size: 1rem;
-    }
-    .gnb_01 a{margin-top:1rem;}
-    .intro_01{margin-top: 1rem;}
-    .intro_02{margin-top: 1rem;}
-    .intro_03{margin-top: 1rem;}
-    .intro_04{margin-top: 1rem;}
-    .intro_05{margin-top: 1rem;}
-    .intro_06{margin-top: 1rem;}
-    .gnb_02{
-        display:none;
-    }
-    .gnb_02 li{
-        width:100px; height: 30px;
-        margin:auto;
-        margin-top:30px;
-        font-size: 1.2rem;
-        color: var(--color-black);
-    }
-    
+   
     /*==================================vieWBox============*/
 
     .m_pfizer_picBox{
@@ -256,15 +171,4 @@
     background-position: 50% 50%;
     background-size: contain;
     background-repeat: no-repeat;
-}
-/*-----------------------footBox------------------------------------*/
-#footBox{
-    background-color: var(--color-deepgray);
-}
-.m_footBox{
-    padding-top:8.3333333333333vw;
-    margin-left:12.5vw;
-    width:58.3333333333vw; height:25.625vw;
-    font-size: 0.025rem;
-    line-height:2rem;
 }

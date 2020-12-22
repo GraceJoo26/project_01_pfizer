@@ -1,0 +1,11 @@
+/*-----------------------footBox------------------------------------*/
+#footBox{
+    background-color: var(--color-gray);
+}
+.m_footBox{
+    padding-top:8.3333333333333vw;
+    margin-left:12.5vw;
+    width:58.3333333333vw; height:25.625vw;
+    font-size: 0.025rem;
+    line-height:2rem;
+}

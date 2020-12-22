@@ -1,0 +1,50 @@
+/*--------------------contribution_themeBox--------------------*/
+#contribution_themeBox{
+    width:100%; height:20.83333vw;
+    background-color: var(--color-white);
+}
+#contribution_themeBox dl{
+    margin:auto; 
+    padding-top:9.2778vw;
+    width:67.6388889vw;
+    height:100px;
+}
+#contribution_themeBox dt{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+#contribution_themeBox dd{
+    text-align: center;
+    margin-top: 1.597222vw;
+    font-size:1.25rem;
+    color:var(--color-deepgray);
+}
+/*------------------------pictureBox--------------------------*/
+#pictureBox{
+    width: 100%;height: 55.55556vw;
+}
+.pictureBox_wrap{
+    margin:auto;margin-top: 4.597222vw;
+    width:77.569444vw; height: 42.708333vw;
+}
+    
+.pictureBox_wrap dl{
+    float:left;
+    margin-left:2.7777778vw;
+    margin-top:2.7777778vw;
+    width: 23.958333vw; height:19.86111vw;
+    background-color: #cdc;
+}
+.pictureBox_wrap > .first_pic{
+    margin-left:0;
+}
+.pictureBox_wrap > .fourth_pic{
+    margin-left:0;
+}
+.pictureBox_wrap dt{
+    width: 23.958333vw; height: 14.583333vw;
+    background-color: #fff;
+}
+.pictureBox_wrap dd{
+    font-size: 0.875rem; line-height:1.5rem; }

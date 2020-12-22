@@ -1,41 +1,37 @@
 
-.pc_h1{
-    float:left;
-    width:163px; height: 102px;
-    background-image: url(../../../img/pfizer_logo.png);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: contain;
-}
 
-.pc_gnb{
-    float:right;
-    margin-right:12.5vw;
-    margin-top:45px;
-    width:572px;
-}
-
-.pc_gnb dl{   
-    float:left;
-    width:92px; height:27px;
-    margin-left:58px;
-    font-size: 1.25rem;
-}
-.pc_gnb .pc_intro{margin-left:0;}
 /*-------------------headBox------------------*/
 
 .pc_view{
-    width:100%; height:69.444444444vw;
+    width:100%; height:1000px;
     background-image: url(../../../img/2020515_front_img_0.jpg);
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
+  
+}
+.indicator{
+    width:37px; height:250px; 
+    position:fixed;
+    top:20vw; right:1.9444444vw;
+    z-index:100;
+}
+.indicator li{
+    width:28px; height:28px;
+    margin-top:28px; border-radius: 100%;
+    background-color: var(--color-deepgray);
+}
+.indicator li a{
+    width: 100%;height: 100%;
+}
+.indicator li.on{
+    background-color: var(--color-blue);
 }
 
 /*------------------newsBox-----------------*/
 .pc_newsWrap{
-    width: 100%;height: 55.694444vw;
-    background-color: #fff;
+    width: 100%;height: 1000px;
+  
 }
 .pc_newsTheme{
     margin:auto;
@@ -44,55 +40,56 @@
 }
 .pc_newsTheme dt{
     margin:auto;
+    text-align: center;
     width:230px;
     font-size: 1.875rem;
     color:var(--color-black);
 }
 .pc_newsTheme dd{
     margin:auto;
+    text-align: center;
     width:406px;
     font-size: 1rem;
     color:var(--color-deepgray);
     padding-top:2.08333333vw;
 }
+.pc_newsWrap_02{
+    overflow:hidden;
+    width:77.5vw; height:27.77777777778vw;
+    margin:auto;
+}
 .pc_news{
-    width:77.8vw; height:28.819444vw;
+    height:28.819444vw;
     margin:auto;
     margin-top:7.291667vw;
+}
+.pc_news dl{
+    float:left;
+    width: 24.16667vw; height: 20.486111vw;
+    border: 1px solid var(--color-black); 
+    box-sizing: border-box;
+    margin-left:2.6388889vw ;
+
 }
 .pc_news dt{
     width:100%;height:13.0555556vw;
     margin-top:1.0416667vw;
     background-color: #cdc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
     box-sizing: border-box;
 }
-.first_newsBox{
-    float:left;
-    width: 24.16667vw; height: 20.486111vw;
-    border: 1px solid var(--color-black); 
-    box-sizing: border-box;
-}
+
 .pc_theme{margin-top:10px;margin-left:5px; font-size:0.875rem; color:var(--color-black);}
 .pc_date{margin-top:10px; margin-left:5px;font-size: 0.75rem; color:var(--color-deepgray);}
 
-.second_newsBox{
-    float:left;
-    width: 24.16667vw; height: 20.486111vw;
-    border: 1px solid var(--color-black); 
-    box-sizing: border-box;
-    margin-left:2.6388889vw ;
-}
-.third_newsBox{
-    float:left;
-    width: 24.16667vw; height: 20.486111vw;
-    border: 1px solid var(--color-black); 
-    box-sizing: border-box;
-    margin-left:2.6388889vw ;
-}
+
 
 .pc_button{
+    position:relative;
     width:80px;height:20px;
-    margin:auto; top:6.9444444vw;
+    margin:auto; top:35vw;
     
 }
 .pc_prev{
@@ -103,24 +100,27 @@
     float:right;
     font-size: 1.6rem;
 }
-/*---------------------------youtubeBox-----------*/
+/*---------------------------youtubeBox----------------------*/
 .pc_youtubeBox{
-    width:100%; height:55.5555556vw;
+    width:100%; height:1000px;
     background-color: var(--color-white);
+   
 }
 .pc_youtubeBox_theme{
     margin:auto;
     width:374px; height:6.11111111vw;
-    padding-top:5.5555556vw;
+    padding-top:10vw;
 }
 .pc_youtubeBox_theme dt{
     margin:auto;
+    text-align: center;
     width:260px;
     font-size: 1.875rem;
     color:var(--color-black);
 }
 .pc_youtubeBox_theme dd{
     margin:auto;
+    text-align: center;
     width:374px;
     font-size: 1rem;
     color:var(--color-deepgray);
@@ -134,6 +134,7 @@
     margin:auto;
     margin-top:7.291667vw;
 }
+
 .pc_youtubeBox_01 dt{
     width:100%;height:13.0555556vw;
     margin-top:1.0416667vw;
@@ -142,9 +143,11 @@
 }
 .first_youtubeBox{
     float:left;
+    margin-left:0;
     width: 24.16667vw; height: 20.486111vw;
     border: 1px solid var(--color-black); 
     box-sizing: border-box;
+    margin-top: 2.63888889vw;
 }
 .pc_theme{margin-top:10px;margin-left:5px; font-size:0.875rem; color:var(--color-black);}
 .pc_date{margin-top:10px; margin-left:5px;font-size: 0.75rem; color:var(--color-deepgray);}
@@ -154,14 +157,14 @@
     width: 24.16667vw; height: 20.486111vw;
     border: 1px solid var(--color-black); 
     box-sizing: border-box;
-    margin-left:2.6388889vw ;
+    margin-left:2.6388889vw ;margin-top: 2.63888889vw;
 }
 .third_youtubeBox{
     float:left;
     width: 24.16667vw; height: 20.486111vw;
     border: 1px solid var(--color-black); 
     box-sizing: border-box;
-    margin-left:2.6388889vw ;
+    margin-left:2.6388889vw ;margin-top: 2.63888889vw;
 }
 .pc_broadcast{margin-left:0.8333vw; margin-top:1.1111vw; font-size: 0.625rem; color:red;}
 .pc_theme{margin-left:0.8333vw; margin-top:1.1111vw; font-size: 0.875rem; color:var(--color-black);}
@@ -169,7 +172,7 @@
 /*-------------------drugInfoBox------------------*/
 
 .pc_drugInfoWrap{
-    width:100%; height:55.555555556vw;
+    width:100%; height:900px;
     background-color: var(--color-white);
 }
 
@@ -179,12 +182,14 @@
     padding-top:5.5555556vw;
 }
 .pc_drugInfoTheme dt{
+    text-align: center;
     margin:auto;
     width:164px;
     font-size: 1.875rem;
     color:var(--color-black);
 }
 .pc_drugInfoTheme dd{
+    text-align: center;
     font-size: 1rem;
     color:var(--color-deepgray);
     padding-top:2.08333333vw;
@@ -200,6 +205,9 @@
     margin-left:1.597222vw;
     margin-top:1.597222vw;
     background-color: var(--color-white);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 }
 .pc_drugPic li:first-child{
     margin-left: 0;
@@ -208,32 +216,3 @@
     margin-left: 0;
 }
 
-/*------------------footer---------*/
-
-.pc_footer{
-    width:100%; height:20.833333vw;
-}
-.pc_address{
-    margin-left:11.319444vw; padding-top: 6.597222vw;
-    width:77.5vw; height:7.6388889vw;
-}
-.pc_address li{
-    font-size: 1rem;
-    float:left;
-}
-.pc_address li:nth-child(2){
-    float:right;
-    margin-left: 6.944444vw;
-}
-.pc_address li:nth-child(3){
-    float:right;
-    margin-left:1.458333vw;
-}
-#family_site{
-    width:11.36111vw; height:3.125vw; 
-    color:var(--color-black);
-    text-align:center;
-}
-#site_map{
-    width:11.36111vw; height:3.125vw; color:var(--color-black);
-}

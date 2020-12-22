@@ -1,0 +1,106 @@
+[
+    {
+      "picture": "002-3.gif",
+      "name" :"디트루시톨"
+    },
+    {
+      "picture": "002-10.gif",
+      "name" :"자낙스"
+    },
+    
+    
+    {
+        "picture": "benefix.jpg",
+        "name" :"베네픽스주 250IU",
+        "ingredient":"혈액응고인자IX"
+    },
+    {
+        "picture": "besponsa.jpg",
+        "name" :"베스폰사주",
+        "ingredient":"이노투주맙오조가마이신 1mg"
+    },
+    {
+        "picture": "celebrax.jpg",
+        "name" :"쎄레브렉스",
+        "ingredient":"세레콕시브 100mg, 200mg, 400mg"
+    },
+    
+    {
+        "picture": "de-1.jpg",
+        "name" :"디푸루칸캡슐50mg",
+        "ingredient":"플루코나졸 50mg"
+    },
+    {
+        "picture": "ginotrophin.jpg",
+        "name" :"지노트로핀 펜 5.3",
+        "ingredient":"소마트로핀 16IU"
+    },
+    {
+        "picture": "younasin.jpg",
+        "name" :"유나신 주 104mg/0.65mL",
+        "ingredient":"메드록시프로게스테론아세테이트"
+    },
+    {
+        "picture": "precedex_img.jpg",
+        "name" :"프로세덱스 주 100ug/mL",
+        "ingredient":"덱스메데토미딘 염산"
+    },
+    {
+        "picture": "xalatan-1.jpg",
+        "name" :"잘라탄 0.005%",
+        "ingredient":"라타노프로스트"
+    },
+    
+    {
+        "picture": "sulferasone.jpg",
+        "name" :"설페라존 주사 1g",
+        "ingredient":"설박탐나트륨0.5g/세포페리톤나트륨0.5g"
+    },
+    {
+        "picture": "siloV.jpg",
+        "name" :"실로브이 1mg",
+        "ingredient":"바레니클린"
+    },
+    {
+        "picture": "tigasil.jpg",
+        "name" :"타이가실 주 50mg",
+        "ingredient":"타이가시실린"
+    },
+    {
+        "picture": "depurucan.jpg",
+        "name" :"디푸루칸 정맥주사",
+        "ingredient":"타이가시실린"
+    },
+    {
+        "picture":"002-12.gif",
+        "name":"잘라콤",
+        "ingredient":"라타노프스트&티몰롤"
+    },
+    {
+        "picture": "xelsanns.gif",
+        "name" :"젤잔즈 5mg",
+        "ingredient":"토파시티닐 시트르산염"
+    },
+    {
+        "picture": "eraxis-1.gif",
+        "name" :"에락시스주 100mg",
+        "ingredient":"애니돌라핀진*과당혼합물"
+    },
+    {
+        "picture": "caduraXL.gif",
+        "name" :"카두라엑스엘 서방정4mg",
+        "ingredient":"독사조신메실산염 5.09mg"
+    },
+    {
+        "picture": "duaviv_m.jpg",
+        "name" :"듀아비브 정 0.45/20mg",
+        "ingredient":"바제독시펜아세테이트 22.56mg, 결합형에스트로겐4.29% 10.4895mg"
+    },
+    {
+        "picture": "novaskT.jpg",
+        "name" :"노바스크 티정",
+        "ingredient":"텔미사르탄 40mg, 암로디핀베실산염 6.935mg"
+    }
+
+    
+]

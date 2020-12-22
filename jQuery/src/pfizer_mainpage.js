@@ -3,7 +3,7 @@
     var nowW = deviceSize();
     var deviceType = ['mobile','pc','pcfull'];
     var url  = "./main/"
-    var body=$(body);
+    var body=$('body');
     var headBox=$('#headBox');
     var viewBox=$('#viewBox');
     var newsBox=$('#newsBox');

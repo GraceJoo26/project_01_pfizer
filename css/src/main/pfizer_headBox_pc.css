@@ -1,0 +1,24 @@
+.pc_h1{
+    float:left;
+    width:163px; height: 102px;
+    background-image: url(../../../img/pfizer_logo.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+}
+.h1 a{width:100%; height:100%;display:block;}
+
+.pc_gnb{
+    float:right;
+    margin-right:12.5vw;
+    margin-top:45px;
+    width:572px;
+}
+
+.pc_gnb dl{   
+    float:left;
+    width:92px; height:27px;
+    margin-left:58px;
+    font-size: 1.25rem;
+}
+.pc_gnb .pc_intro{margin-left:0;}

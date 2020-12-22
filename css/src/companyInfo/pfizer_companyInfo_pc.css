@@ -1,0 +1,70 @@
+/*----------------------themeBox--------*/
+#companyInfo_themeBox{
+    width:100%; height:20.83333vw;
+    background-color: var(--color-white);
+}
+#companyInfo_themeBox dl{
+    margin:auto; 
+    padding-top:9.2778vw;
+    width:500px;
+    height:100px;
+}
+#companyInfo_themeBox dt{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+#companyInfo_themeBox dd{
+    text-align: center;
+    margin-top: 1.597222vw;
+    font-size:1.25rem;
+    color:var(--color-deepgray);
+}
+/*--------------------------introBox----------*/
+
+.companyInfoWrap{
+    width:100%; height:60vw;
+    background-color: #fff;
+}
+.companyInfo{
+    width:77.569444vw;
+    height:42.569444vw;
+    padding-top: 6.6666667vw;
+    margin:auto;
+}
+.companyInfo li{
+    position:relative;
+    float:left;
+    width:23.958333vw; height:19.791667vw;
+    margin-left:2.847222vw;
+    margin-top:2.847222vw;
+    background-color: var(--color-gray);
+}
+.companyInfo li:nth-of-type(3n-2){
+    margin-left:0;
+}
+.companyInfo dl{
+    width:12.847222vw;
+    height:7.291667vw;
+    padding-top: 2.7777778vw;
+    margin-left:2.777778vw;
+}
+.companyInfo dt{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.companyInfo dd{
+    margin-top: 1.041667vw;
+    font-size:0.875rem;
+    line-height: 1.5rem;
+    color:var(--color-deepgray);
+}
+.companyInfo p{
+    position:absolute;
+    z-index:1;
+    display:block;
+    margin-left: 15.708333vw;
+    width: 8.7222222vw; height: 8.27778vw;
+    font-size: 5rem;
+    color:var(--color-deepgray);
+}
