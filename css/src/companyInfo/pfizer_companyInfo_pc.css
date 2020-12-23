@@ -68,3 +68,7 @@
     font-size: 5rem;
     color:var(--color-deepgray);
 }
+.companyInfo>li:hover{
+    background-color:rgba(3,146,207,0.3);
+}
+

@@ -1,8 +1,9 @@
 //jQ importModule//
 (function($){
     var nowW = deviceSize();
+    // console.log(nowW);
     var deviceType = ['mobile','pc','pcfull'];
-    var url  = "./main/"
+    var url  = "./main/";
     var body=$('body');
     var headBox=$('#headBox');
     var viewBox=$('#viewBox');
@@ -52,4 +53,5 @@
                 importPc();
             });
         }
+        
 })(jQuery);

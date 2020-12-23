@@ -33,8 +33,12 @@
     float:left;
     margin-left:2.7777778vw;
     margin-top:2.7777778vw;
-    width: 23.958333vw; height:19.86111vw;
-    background-color: #cdc;
+    width: 23.958333vw; height:20.86111vw;
+    background-color:var(--color-gray);
+    box-sizing: border-box;
+    overflow: hidden;
+
+    
 }
 .pictureBox_wrap > .first_pic{
     margin-left:0;
@@ -45,6 +49,40 @@
 .pictureBox_wrap dt{
     width: 23.958333vw; height: 14.583333vw;
     background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
 }
 .pictureBox_wrap dd{
-    font-size: 0.875rem; line-height:1.5rem; }
+    font-size: 0.875rem; line-height:1.5rem;
+    margin-left:1rem;
+    margin-top:1rem; 
+}
+
+.first_pic dt{
+    background-image: url(../../../img/press_img_180203.jpg);
+
+}
+.second dt{
+    background-image: url(../../../img/download.jpg);
+}
+.third dt{
+    background-image: url(../../../img/rnd_univercity_img_180226.jpg);
+}
+.fourth_pic dt{
+    background-image: url(../../../img/hospital_img1_180226.png);
+    background-position: 100% 50%;
+    background-size: 200%;
+}
+.fifth dt{
+    background-image: url(../../../img/hospital_img2_180226.jpg);
+}
+.sixth dt{
+    background-image: url(../../../img/hospital_img3_180226.jpg);
+    background-position: 50% 20%;
+}
+
+.date{
+    margin-top:1rem;
+    color:var(--color-deepgray);
+}

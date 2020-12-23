@@ -19,7 +19,7 @@
             li.css(
                 {'backgroundImage':'url(' + url + dataFile[i].picture + ')'}
                 );
-            console.log(i);
+            // console.log(i);
 
         }
     })

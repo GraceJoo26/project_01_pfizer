@@ -13,7 +13,6 @@
     var importMobile=function(){
         body.append(
             '<script src="../js/src/main/pfizer_headBox_mobile.js"></script>',
-            '<script src="../jQuery/src/socialContribution/pfizer_socialContributionBox_pc.js"></script>',
             '<script src="../js/src/main/pfizer_footBox_mobile.js"></script>'
         );
     };

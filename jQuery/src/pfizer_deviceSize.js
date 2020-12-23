@@ -19,7 +19,7 @@ var deviceSize=function(){
                 }
             }
             return myType;
-        }
+        };
 
         var winSize=deviceCheck(beforeWinW);
         resultDevice=winSize;
@@ -33,7 +33,7 @@ var deviceSize=function(){
             }
         });
         return resultDevice;
-
     })(jQuery);
+    console.log('device Type : ' , resultDevice);
     return resultDevice;
-}
+};

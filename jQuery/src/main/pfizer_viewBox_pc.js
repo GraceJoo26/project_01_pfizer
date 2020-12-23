@@ -25,8 +25,10 @@
     //indicator class넣기
     indiLi.children('a').on('focus click', function(e){
         e.preventDefault();
+        console.log( e.type );
             it=$(this);
             indi = it.parent('li').index();
+            // console.log(indi);
     });
 
     win.on('mousewheel DOMMouseScroll',function(e){
@@ -53,6 +55,7 @@
                 $('html, body').animate({scrollTop:offsetAr[mn]});
             }else if(mn > 0 && delta > 0){
                 mn -= 1;
+                console.log('mn:', mn);
                 indiLi.eq(mn).addClass('on');
                 indiLi.eq(mn).siblings().removeClass('on');
                 $('html, body').animate({scrollTop:offsetAr[mn]});
