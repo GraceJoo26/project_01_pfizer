@@ -3,11 +3,12 @@
 /*-------------------headBox------------------*/
 
 .pc_view{
-    width:100%; height:1000px;
+    margin:auto;
+    width:100%; height:700px;
     background-image: url(../../../img/2020515_front_img_0.jpg);
     background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
+    background-position: 50% 60%;
+    background-size: 90%;
   
 }
 .indicator{
