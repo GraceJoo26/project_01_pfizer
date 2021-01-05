@@ -29,29 +29,29 @@
             explain=modalBox.find('.explain');
             bigImg.css({backgroundImage:'url('+url+dataFile[i].picture+')'});
             theme.text(dataFile[i].title);
-            explain.text(dataFile[i].explain);
+            explain.text(dataFile[i].explain); //code 붙이고 ajax에서 json끌어 data입력하기
         };
         modalBox=modalWrap.find('.modalBox');
         closeBtn=modalWrap.find('.close');
         var n=0;
-        pictureBtn.on('click', function(e){
+        pictureBtn.on('click', function(e){ //pictureBtn을 누르면
             e.preventDefault();
-            var it=$(this);
-            var itIndex=it.index();
+            var it=$(this);                 // 내가 누른 그 버튼 = it
+            var itIndex=it.index();         //내가 누른 버튼에 대한 index 체크!
             n=itIndex;
-            modalWrap.slideDown(function(){
-                modalBox.eq(itIndex).siblings().hide();
-                modalBox.eq(itIndex).fadeIn();
-                modalBox.eq(itIndex).find('.close').find('a').focus();
+            modalWrap.slideDown(function(){             // slideDown 함수사용 
+                modalBox.eq(itIndex).siblings().hide(); //내가 누른 box이외의 형제들은 숨기고
+                modalBox.eq(itIndex).fadeIn();          //내가 누른 box만 fadeIn
+                modalBox.eq(itIndex).find('.close').find('a').focus();//class close 찾아서 내부에 a를 찾아서 focus하라
             });
         })
 
 
-        closeBtn.on('click',function(e){
-            e.preventDefault();
-            modalWrap.stop().hide();
-            modalBox.hide(function(){
-                pictureBtn.eq(n).focus();
+        closeBtn.on('click',function(e){ //closeBtn을 클릭하면
+            e.preventDefault();          //내부 이벤트 모두 삭제하고
+            modalWrap.stop().hide();     // modal감싸는 페이지를 숨기고
+            modalBox.hide(function(){    //modalbox를 숨기는 함수
+                pictureBtn.eq(n).focus();//pictureBtn 의 내가 누른 것에 focus 둬라
             });
         })
        
